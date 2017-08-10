@@ -1,4 +1,7 @@
-# DECO
+# DECO_DCGAN
+Construct a DCGAN in TFLearn and use data augmentation to test if the generative model can learn to produce images with rotation-invariant features. 
+
+## DECO
 DECO is a citizen science project that enables users around the world to detect cosmic rays and other energetic particles with their cell phones and tablets. Cosmic rays are energetic subatomic particles produced by powerful cosmic accelerators, such as black holes and exploding stars. When a cosmic-ray muon hits the camera sensor, it liberates some electrons. The accumulated charge tells us about the amount of energy particle deposited, while the distribution of this charge in our sensor, the shape, tells us about the kind of particle that has produced it. Learn more about DECO [here](https://wipac.wisc.edu/deco/home)
 
 DECO detects three distinct types of particle physics events: tracks, worms, and spot. Shown below are zoomed-in images of what each event type looks like in the camera sensor. The orientation of the physics event with respect to camera sensor is completely arbitrary, i.e. the way a DECO user orients their phone during data taking has no effect on the events themselves. As a result, all events are both translation and rotation invariant. 
