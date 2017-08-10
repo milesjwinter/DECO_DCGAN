@@ -10,7 +10,7 @@ Deep Convolutional Generative Adversarial Networks (DCGAN) are unsupervised lear
 A critical difference between DECO events and human faces or bed rooms is the additional of rotation-invariant data. Let's see if we can use data augmentation to train a DCGAN to generate rotation-invariant images. 
 
 ## Analysis and Results
-Because certain particle physics events can be somewhat rare, the DECO dataset only contains a few thousand images. In order to prevent the model from simply memorizing the training set, random rotations, x-y reflections, and blurring are used during the training process. This also should force the model to learn features that are approximately rotation-invariant. During training, samples images were periodically produced by the generative model:
+Because certain particle physics events can be somewhat rare, the DECO dataset only contains a few thousand images. In order to prevent the model from simply memorizing the training set, random rotations, x-y reflections, and blurring are used during the training process. This also should force the model to learn features that are approximately rotation-invariant. During training, sample images were periodically produced by the generative model:
 ## Snapshot 1
 <img src="sample_images.png" width="800">
 
